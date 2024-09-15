@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Juanes Salas</title>
+    <link rel="icon" type="image/x-icon" href="..//assets/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
+    <link rel="stylesheet" href="..//assets/css/swap.css">
+    <link rel="stylesheet" href="..//assets/css/boostrap.min.css">
+    <link rel="stylesheet" href="..//assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="..//assets/css/slick.css">
+    <link rel="stylesheet" href="..//assets/css/style.css">
+    <link rel="stylesheet" href="..//assets/css/media_query.css">
+</head>
+
+<body>
+    <!-- ====================================== Preloader ===================================== -->
+    <div class="wrapper">
+        <div id="loader-wrapper">
+            <div id="loader">
+                <svg viewBox="0 0 1320 300">
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">Juanes Developer</text>
+                </svg>
+            </div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+    </div>
+    <!-- ====================================== Preloader End ===================================== -->
+    <!-- ====================================== Background Animation ===================================== -->
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- ====================================== Background Animation End ===================================== -->
+    <!-- ====================================== Cursor ===================================== -->
+    <div class="cursor"></div>
+    <!-- ====================================== Cursor End ===================================== -->
+    <!-- ====================================== Dark Light Mode ===================================== -->
+    <div class="dark_toggle">
+        <div class="ul-header">
+            <a class="mode" onclick="myFunction()" title="Toggle Mode">
+                <div class="icon-container">
+                    <i id="sunIcon" class="fa-solid fa-sun fa-spin icon"></i>
+                    <i id="moonIcon" class="fa-solid fa-moon icon hidden"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- ====================================== Dark Light Mode End===================================== -->
+    <header>
+        <!-- ====================================== Fix Icon Menu ===================================== -->
+        <div class="sidebar close">
+            <ul class="nav-links icetab-container" id="icetab-container">
+                <li class="icetab current-tab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/home_icon.svg" alt="home_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li class=""><a class="link_name" href="javascript:void(0)">Intro</a></li>
+                    </ul>
+                </li>
+                <li class="icetab menu-btn">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/about_icon.svg" alt="about_icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">Acerca de mí</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/resume_icon.svg" alt="resume_icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">Trayectoria</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/services_icon.svg" alt="services_icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">Servicios</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/skills_icon.svg" alt="skills_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Habilidades</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/portfolio_icon.svg" alt="portfolio_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Portfolio</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/testimonial_icon.svg" alt="testimonial_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Testimonios</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/blog_icon.svg" alt="blog_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Blog</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/contact_icon.svg" alt="contact_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Contacto</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- ====================================== Fix Icon Menu End ===================================== -->
+        <!-- ======================================= Side Menu ================================== -->
+        <div class="toggle" onclick="openNav()">
+            <img class="line-menu" src="../assets/images/line-menu.png" alt="line-menu">
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+            <img class="logo" src="../assets/images/logo.png" alt="logo">
+            <ul class="sidescreen_sub icetab-container" id="icetab-container2">
+                <li class="icetab current-tab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/home_icon.svg" alt="home_icon">Intro
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/about_icon.svg"
+                            alt="about_icon">Acerca de mí
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/resume_icon.svg"
+                            alt="resume_icon">Trayectoria
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/services_icon.svg"
+                            alt="services_icon.svg">Servicios
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/skills_icon.svg"
+                            alt="skills_icon">Habilidades
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/portfolio_icon.svg"
+                            alt="portfolio_icon">Portfolio
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/testimonial_icon.svg"
+                            alt="testimonial_icon">Testimonios
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/blog_icon.svg"
+                            alt="blog_icon">Blog
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/contact_icon.svg"
+                            alt="contact_icon">Contacto
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- ======================================= Side Menu End ================================== -->
+    </header>
+    <div class="all_page" id="page">
+        <section class="card_section" id="card_main">
+            <div class="olivia_bio" id="oliva_details">
+                <div class="imgBox">
+                    <img class="olivia-img" src="../assets/images/juanes-img.jpg" alt="olivia-img">
+                </div>
+                <div class="bio_contain">
+                    <h1 class="olivia_moswa">Juanes Salas</h1>
+                    <h2 class="designer font_w_font_s1 overflow-hidden"></h2>
+                    <button class="download_cv hire_me font_w_font_s"
+                        onClick="window.open('https://bit.ly/juanessalas');">
+                        <i class="ri-at-line"></i> Contratarme
+                    </button>
+                </div>
+            </div>
+            <div class="right_card_main icetab-content" id="icetab-content">
+                <!-- ======================================= Home Section ================================== -->
+                <section class="oliva-intro tabcontent tab-active" id="home">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Intro</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Soy Juanes Salas, Publicista, Diseñador y Desarrollador Full Stack</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Soy Juan Esteban Salas, publicista y desarrollador Full Stack con más de 10 años de experiencia en el diseño de E-commerce y soluciones web. Mi enfoque combina creatividad y tecnología, logrando que cada proyecto sea único y exitoso. Estoy listo para llevar tu negocio al siguiente nivel con estrategias digitales innovadoras.
+                    </h3>
+                    <div class="button_circle_group">
+                        <div>
+                            <button class="download_cv font_w_font_s"
+                                onClick="window.open('../assets/pdf/juanes_resume.pdf');">
+                                <i class="ri-download-cloud-2-line"></i>Descargar CV
+                            </button>
+                        </div>
+                        <div class="circular_text_main ">
+                            <a href="javascript:void(0)" class="down_arrow_main position-relative">
+                                <img class="circular_text" src="../assets/images/circular_text.png" alt="circular_text">
+                                <img class="down_arrow" src="../assets/images/down_arrow.svg" alt="down_arrow">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= About Section ================================== -->
+                <section class="oliva-intro tabcontent" id="about">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Acerca de mí</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Creando historias a través del desarrollo y la innovación</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Con más de 10 años de experiencia en el diseño de E-commerce y páginas web, tengo un dominio integral de herramientas como WordPress, Elementor Pro, WooCommerce, Shopify, Wix, y plataformas de automatización como Zoho, HubSpot, ManyChat y Mailchimp. Además, manejo lenguajes de programación como HTML, CSS, JavaScript y Node.js, y poseo habilidades avanzadas en Photoshop, Illustrator, Premiere y Filmora. Mi enfoque está en desarrollar soluciones digitales personalizadas, eficaces y visualmente atractivas, optimizadas para maximizar resultados y mejorar la experiencia del usuario.
+                    </h3>
+                    <div class="about_counter fade_up">
+                        <div class="counter">
+                            <h3 class="counter2 count font_w_font_s" data-count="5">10+</h3>
+                            <h3 class="experince font_w_font_s1 ">AÑOS DE EXPERIENCIA</h3>
+                        </div>
+                        <div class="counter">
+                            <h3 class="counter2 count font_w_font_s" data-count="160">165+</h3>
+                            <h3 class="experince">PROYECTOS COMPLETADOS EN 9 ACUIDADES Y 8 PAÍSES</h3>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Resume Section ================================== -->
+                <section class="oliva-intro tabcontent" id="resume">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Trayectoria</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Educación</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Mi formación incluye desarrollo Full Stack, marketing digital y optimización SEO, junto con especialización en PNL y coaching. Cada curso ha fortalecido mi capacidad para ofrecer soluciones tecnológicas integrales y estrategias digitales efectivas, siempre con un enfoque humano y conectado con tus necesidades.
+                    </h3>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">Bachelor of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2010 - 2014
+                            </h4>
+                            <h5 class="cursus font_w_font_s1">Cursus ut consectetur rhoncus ut nibh. Bibendum at sit a
+                                tempor, laoreet varius et. Sed ut egestas vitae dolor nulla non Ullamcorper amet nibh.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">master of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2014 - 2016</h4>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">phd of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Cambridge University / 2016 - 2018</h4>
+                            <h5 class="cursus font_w_font_s1">Adipiscing sed magna tempus arcu morbi. Ipsum pellentesque
+                                lorem suscipit in. Hendrerit rhoncus quis tempor urna pharetra ut erat.</h5>
+                        </div>
+                    </div>
+                    <h2 class="moswa experience_main_text font_w_font_s fade_up">Experiencia</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Dui ac erat in nec ut at viverra. Tristique morbi
+                        gravida pulvinar aenean ornare cras rhoncus volutpat a. Tempor cras convallis neque auctor ipsum
+                        cursus senectus. Bibendum nunc a fringilla vitae etiam eget volutpat felis scelerisque.
+                    </h3>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">lead design & development</h3>
+                                    <h4 class="company font_w_font_s1">Envato / 2020 - Current</h4>
+                                </div>
+                                <img class="company_logo" src="../assets/images/envato.png" alt="envato">
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Cursus ut consectetur rhoncus ut nibh. Bibendum at sit a
+                                tempor, laoreet varius et. Sed ut egestas vitae dolor nulla non Ullamcorper amet nibh.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">senior design & development</h3>
+                                    <h4 class="company font_w_font_s1">Apple / 2019 - 2020</h4>
+                                </div>
+                                <img class="company_logo" src="../assets/images/apple.png" alt="apple">
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">senior design & development</h3>
+                                    <h4 class="company font_w_font_s1">Apple / 2019 - 2020</h4>
+                                </div>
+                                <img class="company_logo" src="../assets/images/apple.png" alt="apple">
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Porttitor euismod at semper ut massa. Lorem varius magna
+                                volutpat nunc. Et faucibus scelerisque donec augue eleifenda morbi dolor lorem semper.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">junior design & development</h3>
+                                    <h4 class="company font_w_font_s1">Twitter / 2018 - 2019</h4>
+                                </div>
+                                <img class="company_logo" src="../assets/images/twitter.png" alt="twitter">
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Adipiscing sed magna tempus arcu morbi. Ipsum pellentesque
+                                lorem suscipit in. Hendrerit rhoncus quis tempor urna pharetra ut erat.
+                            </h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Services Section ================================== -->
+                <section class="oliva-intro tabcontent" id="services">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Mis Servicios</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Bringing your vision to life with Precision and Passion</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Faucibus nulla elit fringilla duis nunc. Enim urna
+                        nisl odio sed sapien. Aliquam turpis sit justo commodo elit in at. Elementum neque iaculis est
+                        in proin. Aliquam turpis sed diam a quis volutpat risus.
+                    </h3>
+                    <div class="services_box_main">
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="../assets/images/ux.png" alt="ux">
+                            <h3 class="ui_ux font_w_font_s">Ui/Ux Design</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">Aliquet pretium turpis lorem lorem a viverra pretium.
+                                Amet non in risus elit bibendum. Auctor venenatis lacus.
+                            </h4>
+                        </div>
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="../assets/images/android.png" alt="android">
+                            <h3 class="ui_ux font_w_font_s">App Development</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">Semper donec bibendum amet consectetur enim sem
+                                imperdiet faucibus augue. Risus lorem pellentesque lorem viverra.
+                            </h4>
+                        </div>
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="../assets/images/web.png" alt="web">
+                            <h3 class="ui_ux font_w_font_s">Web Development</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">Vestibulum et egestas nisi elementum. Est quis mi id
+                                aenean at lorem scelerisque eget. Et sollicitudin augue sit.
+                            </h4>
+                        </div>
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="../assets/images/marketing.png" alt="marketing">
+                            <h3 class="ui_ux font_w_font_s">SEO & Marketing</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">Platea non tristique ultricies mi malesuada amet
+                                imperdiet posuere ut. Orci pellentesque vehicula iaculis integer donec.
+                            </h4>
+                        </div>
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="../assets/images/marketing.png" alt="marketing">
+                            <h3 class="ui_ux font_w_font_s">SEO & Marketing</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">Platea non tristique ultricies mi malesuada amet
+                                imperdiet posuere ut. Orci pellentesque vehicula iaculis integer donec.
+                            </h4>
+                        </div>
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="../assets/images/marketing.png" alt="marketing">
+                            <h3 class="ui_ux font_w_font_s">SEO & Marketing</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">Platea non tristique ultricies mi malesuada amet
+                                imperdiet posuere ut. Orci pellentesque vehicula iaculis integer donec.
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="pricing_group">
+                        <div class="intro_main">
+                            <h2 class="intro font_w_font_s fade_up">Precios</h2>
+                        </div>
+                        <h2 class="moswa font_w_font_s fade_up">Precios promocionales</h2>
+                        <div class="plan_box fade_up">
+                            <div class="plan_box_sub">
+                                <div>
+                                    <h3 class="basic_plain font_w_font_s">Basic Plan</h3>
+                                    <h4 class="per_month font_w_font_s"><span class="plan_price">$250 USD</span>/ Único pago
+                                    </h4>
+                                </div>
+                                <button class="download_cv buy_now font_w_font_s"
+                                    onClick="window.open('https://mpago.li/2MDxjbr');">
+                                    <img class="shopping_bag" src="../assets/images/shopping_bag.png"
+                                        alt="shopping_bag">Comprar
+                                </button>
+                            </div>
+                            <h5 class="build font_w_font_s1">Inicia tu marca de forma <span class="help"> profesional.
+                                    </span></h5>
+                            <div class="plan_box_sub2">
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Diseño de logotipo</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">3 Post para redes sociales</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Página web de aterrizaje</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Creación de redes sociales</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Hosting + Dominio + Certificado SSL</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Diseño e impresión de 1000 tarjetas profesionales</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plan_box fade_up" id="plan_box">
+                            <div class="plan_box_sub">
+                                <div>
+                                    <h3 class="basic_plain font_w_font_s">Ultra Plan</h3>
+                                    <h4 class="per_month font_w_font_s"><span class="plan_price">$400 USD</span>/  Único pago
+                                    </h4>
+                                </div>
+                                <button class="download_cv buy_now font_w_font_s"
+                                    onClick="window.open('https://mpago.li/2jA5h9c');">
+                                    <img class="shopping_bag" src="../assets/images/shopping_bag.png"
+                                        alt="shopping_bag">Comprar
+                                </button>
+                            </div>
+                            <h5 class="build font_w_font_s1">Lleva tu empresa a <span class="help"> otro nivel.
+                                    </span></h5>
+                            <div class="plan_box_sub2">
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Diseño de logotipo + Mini Brand Book</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">3 Post para redes sociales</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Tienda Virtual (E-commerce)</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Creación de redes sociales</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Hosting + Dominio + Certificado SSL</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Diseño e impresión de 1000 tarjetas profesionales</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plan_box fade_up" id="plan_box2">
+                            <div class="plan_box_sub">
+                                <div>
+                                    <h3 class="basic_plain font_w_font_s">Gold Plan</h3>
+                                    <h4 class="per_month font_w_font_s"><span class="plan_price">$500 USD</span>/  Único pago
+                                    </h4>
+                                </div>
+                                <button class="download_cv buy_now font_w_font_s"
+                                    onClick="window.open('https://mpago.li/2zkAhVo');">
+                                    <img class="shopping_bag" src="../assets/images/shopping_bag.png"
+                                        alt="shopping_bag">Comprar
+                                </button>
+                            </div>
+                            <h5 class="build font_w_font_s1">Haz crecer tu marca <span class="help">en grande.
+                                    </span></h5>
+                            <div class="plan_box_sub2">
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Diseño de logotipo + Mini Brand Book</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">3 Post para redes sociales + Curso de WhatsApp</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Página web corporativa + estudio de marcado</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Creación de redes sociales + Anuncio de lanzamiento</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Hosting + Dominio + Certificado SSL</h3>
+                                </div>
+                                <div class="web-dev_main">
+                                    <img src="../assets/images/check.png" alt="check">
+                                    <h3 class="web-dev font_w_font_s1">Diseño e impresión de 1000 tarjetas profesionales</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Skills Section ================================== -->
+                <section class="oliva-intro tabcontent" id="skill">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Mis Habilidades</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Soluciones digitales que conectan y transforman</h2>
+                    <h3 class="passionate font_w_font_s1 ">Especialista en diseño web y marketing digital, experto en herramientas claves como Elementor, WooCommerce, Photoshop, SEO y progrmación.
+                    </h3>
+                    <h3 class="lan_skill font_w_font_s fade_up">Habilidades Lingüísticas</h3>
+                    <div class="skill_circle_main">
+                        <div>
+                            <div class="circlechart" data-percentage="10"></div>
+                            <h2 class="subject">English</h2>
+                        </div>
+                        <div>
+                            <div class="circlechart" data-percentage="98"></div>
+                            <h2 class="subject">Español</h2>
+                        </div>
+                    </div>
+                    <h3 class="lan_skill hard_skill font_w_font_s fade_up">Habilidades Tecnológicas</h3>
+                    <div class="skill_circle_main">
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/css.png" alt="figma">
+                                <h4 class="hard_skill_counter font_w_font_s1">85%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">CSS</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/javascript.png" alt="bootstrap">
+                                <h4 class="hard_skill_counter font_w_font_s1">70%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">JavaScript</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/html.png" alt="css">
+                                <h4 class="hard_skill_counter font_w_font_s1">90%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">HTML</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/nodejs.png" alt="flutter">
+                                <h4 class="hard_skill_counter font_w_font_s1">10%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Node.js</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/meta.png" alt="framer">
+                                <h4 class="hard_skill_counter font_w_font_s1">93%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Meta Ads</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/googleads.png" alt="html">
+                                <h4 class="hard_skill_counter font_w_font_s1">89%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Google Ads</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/wordpress.png" alt="wordpress">
+                                <h4 class="hard_skill_counter font_w_font_s1">98%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">WordPress</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/woocommerce.png" alt="kotline">
+                                <h4 class="hard_skill_counter font_w_font_s1">90%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">WooCommerce</h4>
+                        </div>
+                    </div>
+                    <div class="skill_circle_main">
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/elementor.png" alt="figma">
+                                <h4 class="hard_skill_counter font_w_font_s1">95%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Elementor Pro</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/dweb.png" alt="bootstrap">
+                                <h4 class="hard_skill_counter font_w_font_s1">99%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Diseño Web</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/photoshop.png" alt="css">
+                                <h4 class="hard_skill_counter font_w_font_s1">95%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Adobe Photoshop</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/premierpro.png" alt="flutter">
+                                <h4 class="hard_skill_counter font_w_font_s1">70%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Premiere Pro</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/chatbots.png" alt="framer">
+                                <h4 class="hard_skill_counter font_w_font_s1">88%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Chatbots</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/analisis-de-datos.png" alt="html">
+                                <h4 class="hard_skill_counter font_w_font_s1">89%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Análisis de datos</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/manychat.png" alt="wordpress">
+                                <h4 class="hard_skill_counter font_w_font_s1">82%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Manychat</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/shopify.png" alt="kotline">
+                                <h4 class="hard_skill_counter font_w_font_s1">74%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Shopify</h4>
+                        </div>
+                    </div>
+                    <div class="skill_circle_main">
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/e-commerce.png" alt="figma">
+                                <h4 class="hard_skill_counter font_w_font_s1">99%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">E-commerce</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/yoast.png" alt="bootstrap">
+                                <h4 class="hard_skill_counter font_w_font_s1">90%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Yoast SEO</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/ilustrador.png" alt="css">
+                                <h4 class="hard_skill_counter font_w_font_s1">85%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Adobe Illustrator</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/filmora.png" alt="flutter">
+                                <h4 class="hard_skill_counter font_w_font_s1">86%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Filmora</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/hubspot.png" alt="framer">
+                                <h4 class="hard_skill_counter font_w_font_s1">79%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">HubSpot</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/zoho.png" alt="html">
+                                <h4 class="hard_skill_counter font_w_font_s1">94%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Zoho CRM</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/chatgpt.png" alt="wordpress">
+                                <h4 class="hard_skill_counter font_w_font_s1">86%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Chat GPT</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="../assets/images/mailchimp.png" alt="kotline">
+                                <h4 class="hard_skill_counter font_w_font_s1">97%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">mailchimp</h4>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Portfolio Section  ================================== -->
+                <section class="oliva-intro tabcontent" id="portfolio">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">portfolio</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Transformo ideas en soluciones digitales exitosas</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">He liderado proyectos que combinan creatividad y tecnología, como tiendas online y plataformas web, logrando resultados sobresalientes en cada entrega.
+                    </h3>
+                    <div class="content_main">
+                        <div class="content_main1">
+                            <div class="fade_up">
+                                <div class="content_portfolio pop-up">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="../assets/images/proyectos-destacados.jpg" alt="content_img">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Proyectos</h3>
+                                        <p class="content-text">Click para ver</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Algunos desarollos destacados</h4>
+                                <p class="project_name_sub font_w_font_s1">Ver más</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Portfolio Section End  ================================== -->
+                <!-- ======================================= Testimonials Section  ================================== -->
+                <section class="oliva-intro tabcontent" id="testimonials">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Testimonios</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Experiencia que transforma negocios y marcas.</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Clientes satisfechos destacan cómo mis soluciones digitales han incrementado sus ventas y fortalecido su reconocimiento de marca.
+                    </h3>
+                    <div class="testimonials_card">
+                        <div>
+                            <div class="slider_contain_main">
+                                <div class="img_text">
+                                    <img class="client_img" src="../assets/images/testimonial_img.png"
+                                        alt="testimonial_img">
+                                    <div>
+                                        <h4 class="client_name font_w_font_s">Luisa Rodríguez</h4>
+                                        <p class="client_roll font_w_font_s1">CEO ShoPet</p>
+                                    </div>
+                                </div>
+                                <img class="collan" src="../assets/images/collan.png" alt="collan">
+                            </div>
+                            <div class="rating_main">
+                                <img src="../assets/images/rating.png" alt="rating">
+                            </div>
+                            <h3 class="placerat font_w_font_s1">Trabajar con Juanes Salas fue la mejor decisión para ShoPet. Desde que lanzamos nuestra tienda virtual, nuestras ventas se dispararon y nuestro reconocimiento de marca creció exponencialmente. La dedicación y el enfoque personalizado marcaron la diferencia, logrando conectar con nuestros clientes de una manera increíble. ¡Gracias por ayudarnos a crecer!
+                            </h3>
+                        </div>
+                        <div>
+                            <div class="slider_contain_main">
+                                <div class="img_text">
+                                    <img class="client_img" src="../assets/images/testimonial_img2.png"
+                                        alt="testimonial_img2">
+                                    <div>
+                                        <h4 class="client_name font_w_font_s">Jhon P. Garro</h4>
+                                        <p class="client_roll font_w_font_s1">CEO RUAH</p>
+                                    </div>
+                                </div>
+                                <img class="collan" src="../assets/images/collan.png" alt="collan">
+                            </div>
+                            <div class="rating_main">
+                                <img src="../assets/images/rating.png" alt="rating">
+                            </div>
+                            <h3 class="placerat font_w_font_s1">Gracias a Juanes Salas y su increíble trabajo en nuestra página web, Ruah ha experimentado un crecimiento sorprendente en ventas y reconocimiento de marca. Su enfoque creativo y profesional transformó nuestra presencia digital, conectando de manera auténtica con nuestros clientes. Confiar en su experiencia fue clave para llevar nuestro negocio al siguiente nivel
+                            </h3>
+                        </div>
+                        <div>
+                            <div class="slider_contain_main">
+                                <div class="img_text">
+                                    <img class="client_img" src="../assets/images/testimonial_img3.png"
+                                        alt="testimonial_img3">
+                                    <div>
+                                        <h4 class="client_name font_w_font_s">Juanpa Beta</h4>
+                                        <p class="client_roll font_w_font_s1">Accionista Grupo Junín</p>
+                                    </div>
+                                </div>
+                                <img class="collan" src="../assets/images/collan.png" alt="collan">
+                            </div>
+                            <div class="rating_main">
+                                <img src="../assets/images/rating.png" alt="rating">
+                            </div>
+                            <h3 class="placerat font_w_font_s1">Trabajar con Juanes Salas fue un verdadero cambio para Grupo Junín. Nuestra nueva página web no solo ha impulsado nuestras reservas en restaurantes y discotecas, sino que también ha fortalecido nuestra presencia digital. Juanes entendió nuestras necesidades desde el primer momento y logró captar la esencia de nuestra marca. ¡Definitivamente lo recomendaríamos a cualquiera que quiera llevar su proyecto al siguiente nivel!
+                            </h3>
+                        </div>
+                        <div>
+                            <div class="slider_contain_main">
+                                <div class="img_text">
+                                    <img class="client_img" src="../assets/images/testimonial_img4.png"
+                                        alt="testimonial_img4">
+                                    <div>
+                                        <h4 class="client_name font_w_font_s">Carlos Urrego</h4>
+                                        <p class="client_roll font_w_font_s1">Psicologo</p>
+                                    </div>
+                                </div>
+                                <img class="collan" src="../assets/images/collan.png" alt="collan">
+                            </div>
+                            <div class="rating_main">
+                                <img src="../assets/images/rating.png" alt="rating">
+                            </div>
+                            <h3 class="placerat font_w_font_s1">Gracias a Juanes Salas, mi página web refleja perfectamente la empatía y el enfoque humano que brindo en cada sesión. Desde que lanzamos el sitio, más personas han confiado en mis servicios, y mi presencia online ha crecido significativamente. Juanes entendió la esencia de mi trabajo y supo plasmarlo de forma auténtica. ¡Lo recomiendo plenamente!
+                            </h3>
+                        </div>
+                        <div>
+                            <div class="slider_contain_main">
+                                <div class="img_text">
+                                    <img class="client_img" src="../assets/images/testimonial_img5.png"
+                                        alt="testimonial_img4">
+                                    <div>
+                                        <h4 class="client_name font_w_font_s">Andrea Cabezas</h4>
+                                        <p class="client_roll font_w_font_s1">Startups Inmobiliarias</p>
+                                    </div>
+                                </div>
+                                <img class="collan" src="../assets/images/collan.png" alt="collan">
+                            </div>
+                            <div class="rating_main">
+                                <img src="../assets/images/rating.png" alt="rating">
+                            </div>
+                            <h3 class="placerat font_w_font_s1">Trabajar con Juanes Salas en la creación de nuestra landing page para Poseidonia ha sido clave para el éxito de nuestros lanzamientos. No solo logramos generar más clientes potenciales, sino que conectamos emocionalmente con ellos. Su enfoque estratégico y cercano ha transformado nuestra presencia digital y ha aumentado nuestras ventas considerablemente. ¡Totalmente recomendado!
+                            </h3>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Testimonials Section End ================================== -->
+                <!-- ======================================= Blog Section  ================================== -->
+                <section class="oliva-intro tabcontent" id="blog">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Blog</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Blogs y artículos</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">En mi blog encontrarás contenido de alto valor que combina más de 10 años de experiencia en marketing digital y persuasión estratégica. Cada artículo está diseñado para inspirarte y ayudarte a alcanzar tus metas. ¡Conecta con mi enfoque humano y transforma tu negocio hoy mismo!
+                    </h3>
+                    <div class="blog_section_main ">
+                        <div class="fade_up">
+                            <div class="blog_img blog_img2 trigger">
+                                <div class="blog_date">
+                                    <h4 class="date font_w_font_s">03 <span class="month">SEP</span></h4>
+                                </div>
+                            </div>
+                            <h3 class="become font_w_font_s">¿Por qué tu negocio necesita una página web o tienda virtual?</h3>
+                            <p class="web_development font_w_font_s1">Desarrollo Web</p>
+                        </div>
+                </section>
+                <!-- ======================================= Blog Section End  ================================== -->
+                <!-- ======================================= Contact us Section  ================================== -->
+                <section class="oliva-intro tabcontent" id="contact">
+                    <div class="intro_main">
+                        <h2 class="intro fade_up">Contacto</h2>
+                    </div>
+                    <h2 class="moswa fade_up">¡Trabajemos juntos!</h2>
+                    <div class="container1">
+                        <div class="form form__1">
+                            <label for="name" class="form__label">Cómo te llamas*</label>
+                            <input type="text" class="form__input" placeholder="" id="name" required autocomplete="off">
+                        </div>
+                        <div class="form form__2">
+                            <label for="email" class="form__label">Tu correo electrónico*</label>
+                            <input type="email" class="form__input" placeholder="" id="email" required
+                                autocomplete="off">
+                        </div>
+                        <div class="form form__1">
+                            <label for="name" class="form__label">Tu número de WhatsApp*</label>
+                            <input type="text" class="form__input" placeholder="" id="phone" required
+                                autocomplete="off">
+                        </div>
+                        <div class="form form__1">
+                            <label for="name" class="form__label">Mensaje*</label>
+                            <input type="text" class="form__input" placeholder="" id="subject" required
+                                autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="btn_message">
+                        <div class="form form__3">
+                            <label for="name" class="form__label">Cuéntanos tu proyecto*</label>
+                            <input type="text" class="form__input message2" placeholder="" id="project" required>
+                        </div>
+                        <div class="send_message_form">
+                            <button class="download_cv form__btn">
+                                <i class="fa-regular fa-paper-plane material-icons"></i>Enviar mensaje
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="moswa touch">¡Ponte en contacto!</h3>
+                        <div class="contact_number_main">
+                            <img src="../assets/images/contact.svg" alt="contact">
+                            <h4 class="contact_number"><a href="https://bit.ly/juanessalas">(+57) 311 306 0370</a></h4>
+                        </div>
+                        <div class="contact_number_main">
+                            <img src="../assets/images/gmail.svg" alt="gmail">
+                            <h4 class="contact_number"><a href="mailto:eljues89@gmail.com">info@juanessalas.com</a></h4>
+                        </div>
+                        <div class="contact_number_main">
+                            <img src="../assets/images/map.svg" alt="map">
+                            <h4 class="contact_number">
+                                <a href="javascript:void;">Medellín, Colombia</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69981476926!2d-75.66378485947773!3d6.244367668262614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1725941321021!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <h5 class="copyright">© Juanes Developer 2024. All rights reserved by
+                        <a class="krishna" href="https://bit.ly/juanessalas"
+                            target="_blank">Juanes Salas.</a>
+                    </h5>
+                </section>
+                <!-- ======================================= Contact us Section End ================================== -->
+            </div>
+        </section>
+        <!-- ======================================= Social Media Right Side  ================================== -->
+        <div class="social_media_main" id="social_media_main">
+            <ul class="social_media">
+                <li><a href="https://www.facebook.com/juanes.salassanchez" target="blank">FB</a></li>
+                <li><a href="https://www.instagram.com/juanes.wp" target="blank">IG</a></li>
+                <li><a href="https://bit.ly/juanessalas" target="blank">WS</a></li>
+                <li><a href="https://www.linkedin.com/in/juan-e-salas" target="blank">LK</a></li>
+                <li><a href="https://discord.com/channels/@juanes_salas" target="blank">DC</a></li>
+            </ul>
+        </div>
+        <!-- ======================================= Social Media Right Side End ================================== -->
+        <!-- ======================================= Portfolio PopUp Window  ================================== -->
+        <div class="overlay">
+            <div class="content2">
+                <div id="close">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <img class="pop-up-video" src="../assets/images/portfolio_big_img.jpg" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp font_w_font_s">Algunos de mis proyectos</h3>
+                        <p class="project_name_sub font_w_font_s1">Más Destacados</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Juanes Salas Developer</p>
+                    </div>
+                </div>
+                <p class="blandit_text font_w_font_s1">
+                    Cada proyecto que he desarrollado refleja mi compromiso por crear experiencias digitales impactantes. Desde tiendas virtuales hasta páginas inmobiliarias, he logrado transformar ideas en soluciones prácticas y atractivas, ayudando a mis clientes a alcanzar sus objetivos con éxito, conoce un poca más de mi trabajo.
+                </p>
+                <div class="project_second">
+                    <div>
+                        <br><br>
+                        <h4 class="project_name font_w_font_s">ShoPet | Tienda de mascotas</h4>
+                        <p class="project_name_sub font_w_font_s1">Tienda Virtual</p>
+                        <img class="project_sub_images" src="../assets/images/shopet.jpg"
+                            alt="project_sub_images1">
+                            <button class="download_cv view_project font_w_font_s"
+                                onClick="window.open('https://shopet.co');">
+                                <i class="ri-eye-line"></i> Ver Proyecto
+                            </button>
+                    </div>
+                    <div>
+                        <br><br>
+                        <h4 class="project_name font_w_font_s">Ruah | Página de desarrollo</h4>
+                        <p class="project_name_sub font_w_font_s1">Página de servicios</p>
+                        <img class="project_sub_images" src="../assets/images/ruah.jpg"
+                            alt="project_sub_images2">
+                            <br>
+                            <button class="download_cv view_project font_w_font_s"
+                                onClick="window.open('https://ruah.com.co');">
+                                <i class="ri-eye-line"></i> Ver Proyecto
+                            </button>
+                    </div>
+                </div>
+                <div class="project_second">
+                    <div>
+                        <br><br>
+                        <h4 class="project_name font_w_font_s">Grupo Junín | Restaurantes</h4>
+                        <p class="project_name_sub font_w_font_s1">Página de reservas</p>
+                        <img class="project_sub_images" src="../assets/images/junin.jpg"
+                            alt="project_sub_images1">
+                            <button class="download_cv view_project font_w_font_s"
+                                onClick="window.open('https://juningroup.com');">
+                                <i class="ri-eye-line"></i> Ver Proyecto
+                            </button>
+                    </div>
+                    <div>
+                        <br><br>
+                        <h4 class="project_name font_w_font_s">Technology Home | Tecnología</h4>
+                        <p class="project_name_sub font_w_font_s1">Landing Page</p>
+                        <img class="project_sub_images" src="../assets/images/tecnolog.jpg"
+                            alt="project_sub_images2">
+                            <br>
+                            <button class="download_cv view_project font_w_font_s"
+                                onClick="window.open('https://technologyhome.com.co');">
+                                <i class="ri-eye-line"></i> Ver Proyecto
+                            </button>
+                    </div>
+                </div>
+                <div class="project_second">
+                    <div>
+                        <br><br>
+                        <h4 class="project_name font_w_font_s">Psicologo | Servicios profesionales</h4>
+                        <p class="project_name_sub font_w_font_s1">Página de servicios</p>
+                        <img class="project_sub_images" src="../assets/images/psicologo.jpg"
+                            alt="project_sub_images1">
+                            <button class="download_cv view_project font_w_font_s"
+                                onClick="window.open('https://psicologocarlosurrego.online');">
+                                <i class="ri-eye-line"></i> Ver Proyecto
+                            </button>
+                    </div>
+                    <div>
+                        <br><br>
+                        <h4 class="project_name font_w_font_s">Poseidonia | Proyecto inmobiliario</h4>
+                        <p class="project_name_sub font_w_font_s1">Página Inmobiliaria </p>
+                        <img class="project_sub_images" src="../assets/images/posei.jpg"
+                            alt="project_sub_images2">
+                            <br>
+                            <button class="download_cv view_project font_w_font_s"
+                                onClick="window.open('https://poseidonia-residences.com');">
+                                <i class="ri-eye-line"></i> Ver Proyecto
+                            </button>
+                    </div>
+                    <br><br>
+                </div>
+                <p class="blandit_text">A lo largo de mi trayectoria, he transformado ideas en proyectos exitosos, desarrollando tiendas virtuales, páginas corporativas, calendarios de reservas, landing pages y portales inmobiliarios. Cada uno refleja mi pasión por crear resultados innovadores y personalizados que conectan con las necesidades de mis clientes, superando las expectativa y ayudándolos a impulsar sus negocios.
+                </p>
+                <div class="pop-up-footer">
+                    <button class="download_cv view_project font_w_font_s"
+                        onClick="window.open('https://bit.ly/juanessalas');">
+                        <i class="ri-eye-line"></i> Contratar servicios
+                    </button>
+                    <div class="share-button share">
+                        <i class="ri-share-line share-btn"></i>
+                        <div class="social top center networks-5 ">
+                            <a class="fbtn facebook" href="https://www.facebook.com/juanes.salassanchez" target="_blank">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a class="fbtn instagram" href="https://www.instagram.com/juanes.wp/" target="_blank">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a class="fbtn whatsapp" href="https://bit.ly/juanessalas" target="_blank">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                            <a class="fbtn linkedin" href="https://www.linkedin.com/in/juan-e-salas/" target="_blank">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======================================= Portfolio PopUp Window End ================================== -->
+        <!-- ======================================= Blog PopUp Window  ================================== -->
+        <div class="modal-wrapper">
+            <div class="modal">
+                <div class="content3">
+                    <h3 class="logo_design">¿Por qué tu negocio necesita una página web o tienda virtual?</h3>
+                    <h4 class="graphic font_w_font_s1">Juanes Salas | Septiembre 03, 2024</h4>
+                    <div class="blog_pop_up_main">
+                        <img class="blog_pop_up " src="../assets/images/blog_pop_up.png" alt="blog_pop_up">
+                    </div>
+                    <h4 class="nunc font_w_font_s1">
+                        En la era digital, tener una página web o tienda virtual no es un lujo, es una necesidad. Hoy, más del 60% de las compras a nivel mundial inician con una búsqueda en línea, y según un estudio de Statista, las ventas de comercio electrónico superaron los $4.9 billones de dólares en 2021. Entonces, ¿por qué no aprovechar esta oportunidad para tu negocio?
+                    </h4>
+                    <h4 class="nunc font_w_font_s1">Una buena página web, respaldada por una estrategia de marketing digital y tráfico web efectivo, puede hacer que tu marca despegue. ¿Cómo? A través de herramientas como el remarketing, que te permite volver a conectar con personas que ya han mostrado interés en tus productos o servicios, aumentando las posibilidades de conversión. De hecho, el remarketing puede incrementar hasta en un 40% la tasa de conversión de tus campañas publicitarias.
+                    </h4>
+                    <h5 class="viverra font_w_font_s">La diferencia entre tener o no tener una página web:</h5>
+                    <div class="blog-pop-up-list-main">
+                        <ul class="blog-pop-up-list">
+                            <li>Imagina dos negocios: uno con presencia en línea, el otro sin ella. El primero tiene acceso a millones de clientes potenciales, mientras que el segundo depende únicamente de los clientes que entran por la puerta. Con una web optimizada y una buena estrategia de tráfico, tu negocio no solo aumenta su visibilidad, sino también su autoridad en el mercado.</li>
+                            <li>En Latinoamérica, el crecimiento de las plataformas de pago ha sido exponencial. Según datos de la Asociación Latinoamericana de Internet, los pagos en línea en la región crecieron un 38% en 2022, lo que representa oportunidades infinitas para los negocios que invierten en e-commerce. Marcas como Mercado Libre y Falabella han reportado facturaciones mensuales de millones de dólares gracias a sus tiendas virtuales.</li>
+                        </ul>
+                    </div>
+                    <div class="small_blog ">
+                        <h5 class="integer font_w_font_s1">¿Estás listo para llevar tu negocio al siguiente nivel? ¡Haz crecer tu marca y tus ventas con una página web que marque la diferencia! Contáctame para cotizar tu proyecto y descubre cómo juntos podemos hacer que tu negocio alcance más posicionamiento y más ventas.
+                        </h5>
+                        <div class="line_client">
+                            <div class="line"></div>
+                            <h5 class="jordon font_w_font_s">By Juanes Salas</h5>
+                        </div>
+                    </div>
+                    <h5 class="viverra font_w_font_s">Impacto en ventas y marca:</h5>
+                    <h5 class="integer vel font_w_font_s1">
+                        Tener una web no solo aumenta las ventas, sino que también refuerza tu identidad de marca. Cada clic es una oportunidad para destacar frente a la competencia y construir una relación con tus clientes. Estudios han demostrado que los negocios con una presencia digital activa pueden escalar sus ventas hasta en un 20% en el primer año, solo con estrategias simples de optimización y remarketing.
+
+                    </h5>
+                    <div class="blog_pop_up_slider">
+                        <div class="blog_img_main">
+                            <img class="blog_slider_img" src="../assets/images/blog_slider_img1.png"
+                                alt="blog_slider_img1">
+                        </div>
+                        <div class="blog_img_main">
+                            <img class="blog_slider_img" src="../assets/images/blog_slider_img2.png"
+                                alt="blog_slider_img2">
+                        </div>
+                        <div class="blog_img_main">
+                            <img class="blog_slider_img" src="../assets/images/blog_slider_img3.png"
+                                alt="blog_slider_img3">
+                        </div>
+                        <div class="blog_img_main">
+                            <img class="blog_slider_img" src="../assets/images/blog_slider_img4.png"
+                                alt="blog_slider_img4">
+                        </div>
+                    </div>
+                    <h5 class="integer eget font_w_font_s1">
+                        Con más de 10 años de experiencia en desarrollo web y estrategias de marketing digital, estoy aquí para ayudarte a transformar tu negocio. Si buscas aumentar tus ventas, escalar tu marca y entrar al mercado digital de manera efectiva, contáctame y comencemos a crear tu página web o tienda virtual. ¡Cotiza tu proyecto conmigo hoy mismo!
+                    </h5>
+                    <div class="next_prev_share  position-relative">
+                        <div class="next_prev_arrow">
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <h5 class="blog_next_prev font_w_font_s1">Anterior</h5>
+                        </div>
+                        <div class="share-button share share2">
+                            <i class="ri-share-line share-btn share-btn2"></i>
+                            <div class="social top center networks-5 ">
+                                <a class="fbtn facebook" href="https://www.facebook.com/juanes.salassanchez" target="_blank">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+                                <a class="fbtn instagram" href="https://www.instagram.com/juanes.wp" target="_blank">
+                                    <i class="ri-instagram-line"></i>
+                                </a>
+                                <a class="fbtn whatsapp" href="https://bit.ly/juanessalas" target="_blank">
+                                    <i class="ri-whatsapp-line"></i>
+                                </a>
+                                <a class="fbtn linkedin" href="https://www.linkedin.com/in/juan-e-salas/" target="_blank">
+                                    <i class="ri-linkedin-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="next_prev_arrow">
+                            <h5 class="blog_next_prev font_w_font_s1">Siguiente</h5>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="page-wrapper trigger">
+                        <div class="circle-wrapper">
+                            <div class="warning circle_close"></div>
+                            <div class="close-btn font_w_font_s1">CERRAR</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/javascript/jquery.min.js"></script>
+    <script src="../assets/javascript/magnific-popup.min.js"></script>
+    <script src="../assets/javascript/progresscircle.js"></script>
+    <script src="../assets/javascript/cursor.js"></script>
+    <script src="../assets/javascript/bootstrap.bundle.min.js"></script>
+    <script src="../assets/javascript/slick.min.js"></script>
+    <script src="../assets/javascript/script.js"></script>
+</body>
+
+</html>
